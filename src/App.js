@@ -1,16 +1,42 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Footer, Blog, Possibility, Features, WhatBTM, Header} from './containers';
+import { Brand, CTA, Navbar} from './components';
 import './App.css';
-import Navbar from './components/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom';
-import Home from './components/Pages/Home';
+import './index.css';
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Navbar/>
-      <Home></Home>
-    </Router>
-  );
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar/>
+        <Header/>
+      </div>
+      <Brand/>
+      <WhatBTM/>
+      <Features/>
+      <Possibility/>
+      <CTA/>
+      <Blog/>
+      <Footer/>      
+    </div>
+  )
 }
 
-export default App;
+export default App
+
+// import logo from './logo.svg';
+// import './App.css';
+// import Navbar from './components/Navbar';
+// import {BrowserRouter as Router} from 'react-router-dom';
+// import Home from './components/Pages/Home';
+
+// function App() {
+//   return (
+//     <Router>
+//       <Navbar/>
+//       <Home></Home>
+//     </Router>
+//   );
+// }
+
+// export default App;
