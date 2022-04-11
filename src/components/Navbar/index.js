@@ -18,13 +18,16 @@ const Navbar = () => {
             <Bars/>
             <NavMenu>
                 <NavLink to="/page1" activeStyle>
-                    Page 1
+                    Our Services
                 </NavLink>
                 <NavLink to="/page2" activeStyle>
-                    Page 2
+                    Our Talents
                 </NavLink>
                 <NavLink to="/page3" activeStyle>
-                    Page 3
+                    Our Experts
+                </NavLink>
+                <NavLink to="/page4" activeStyle>
+                    Contact Us
                 </NavLink>
             </NavMenu>
             
@@ -33,4 +36,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

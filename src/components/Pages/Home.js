@@ -14,7 +14,9 @@ const Home = () => {
 
             <ScrollPage page={1}>
                 <Animator animation={ZoomInScrollOut}>
-                    <h2>BTM Example 2</h2>
+                    <h2>
+                        To bridge the gap between industry and academia through innovative IT & Data Science services. Unlike most of our competition, we are not a profit-driven organisation. Rather, we are a marketplace, that aims to foster symbiotic relations between our customers and the university. We are distinguishable by our bank of both talented students as well as staff-leading specialists.
+                    </h2>
                 </Animator>
             </ScrollPage>
 
@@ -33,10 +35,10 @@ const Home = () => {
                         <Animator animation={MoveIn(1000,0)}>
                             BTM Example 5
                         </Animator>
-                        <Animator animation={MoveOut(1000,0)}>
+                        <Animator animation={MoveIn(1000,0)}>
                             BTM Example 6
                         </Animator>
-                        <Animator animation={MoveOut(-1000,0)}>
+                        <Animator animation={MoveIn(-1000,0)}>
                             BTM Example 7
                         </Animator>
                     </h2>
