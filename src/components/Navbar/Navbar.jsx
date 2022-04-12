@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -12,11 +13,11 @@ const Navbar = () => {
           <img src={logo} alt="logo" width="100" height="100"/>
         </div>
         <div className="BTM__navbar-link_container">
-          <p><a href="#home">Home</a></p>
-          <p><a href="#wBTM">What IS BTM</a></p>
-          <p><a href="#possiblity">Our Talents</a></p>
-          <p><a href="#features">Our Exprets</a></p>
-          <p><a href="#blog">Our Services</a></p>
+          <Link to="/"><p>Home</p></Link>
+          <Link to="/WhatIs"><p>What IS BTM</p></Link>
+          <Link to="/Talents"><p>Our Talents</p></Link>
+          <Link to="/Experts"><p>Our Experts</p></Link>
+          <Link to="/OurServices"><p>Our Services</p></Link>
         </div>
       </div>
       <div className="BTM__navbar-menu">
@@ -26,11 +27,12 @@ const Navbar = () => {
         {toggleMenu && (
         <div className="BTM__navbar-menu_container scale-up-center">
           <div className="BTM__navbar-menu_container-link">
-            <p><a href="#home">Home</a></p>
-            <p><a href="#wBTM">What IS BTM</a></p>
-            <p><a href="#possiblity">Our Talents</a></p>
-            <p><a href="#features">Our Exprets</a></p>
-            <p><a href="#blog">Our Services</a></p>
+            <Link to="/"><p>Home</p></Link>
+            <Link to="/WhatIs"><p>What IS BTM</p></Link>
+            <Link to="/Talents"><p>Our Talents</p></Link>
+            <Link to="/Experts"><p>Our Experts</p></Link>
+            <div><Link to="/OurServices"><p>Our Services</p></Link></div>
+            
           </div>
           
         </div>
