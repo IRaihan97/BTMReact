@@ -1,17 +1,12 @@
 import { Animator, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, ScrollContainer, ScrollPage, Sticky, StickyIn, ZoomIn } from "react-scroll-motion"
 import React from 'react';
-import Navbar from "../navbar/Navbar";
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn(), FadeOut())
 const FadeUp = batch(Fade(), Sticky(), Move())
 
 
 const OurServices = () => {
     return(
-        <div style={{position: 'absolute'}}>
-        <div>
-            <Navbar/>
-        </div>
-        <ScrollContainer style={{position: 'fixed'}}>
+        <ScrollContainer>
             <ScrollPage page={0}>
                 <Animator animation={batch(Sticky(), Fade(), MoveOut())}>
                     <h2>BTM Example 1</h2>
@@ -31,7 +26,6 @@ const OurServices = () => {
             </ScrollPage>
             
         </ScrollContainer>
-    </div>    
     )
 }
 
