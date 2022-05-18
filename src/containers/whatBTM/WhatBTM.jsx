@@ -3,7 +3,7 @@ import './whatBTM.css';
 
 const WhatBTM = () => {
   return (
-    <div>WhatBTM</div>
+    <div className="contentTest">WhatBTM</div>
   )
 }
 
