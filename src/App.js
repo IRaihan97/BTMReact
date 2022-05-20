@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header} from './containers';
-import { Brand, CTA, Navbar} from './components';
+import { Brand, CTA, Navbar, NewNav} from './components';
 import './App.css';
 import './index.css';
 import { Experts, Home, OurServices, Talents, WhatIs } from './components/Pages';
@@ -12,14 +12,9 @@ const App = () => {
         <Router>
           <div className="gradient__bg">
             <Navbar/>
-            <Header/>
           </div>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/WhatIs" element={<WhatIs/>}/>
-            <Route path="/Talents" element={<Talents/>}/>
-            <Route path="/Experts" element={<Experts/>}/>
-            <Route path="/OurServices" element={<OurServices/>}/>
           </Routes>
         </Router> 
       </div>

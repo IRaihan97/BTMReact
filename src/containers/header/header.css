@@ -1,0 +1,33 @@
+.BTM__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 1000px;
+}
+
+.BTM__header_BG{
+    background-image: url('../../assets/brunel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .BTM__header_BG{
+        background-image: url('../../assets/brunel.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .BTM__header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 500px;
+        z-index: 1;
+    }
+}

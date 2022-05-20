@@ -1,18 +1,15 @@
-import { Footer, Blog, Possibility, Features, WhatBTM, Header} from '../../containers';
-import { Brand, CTA, Navbar} from '../../components';
+import { Header, AboutUs, Services, Experts, Students, ContactUs} from '../../containers';
 import React from 'react';
 
 const Home = () => {
     return(
         <div>
             <Header/>
-            <Brand/>
-            <WhatBTM/>
-            <Features/>
-            <Possibility/>
-            <CTA/>
-            <Blog/>
-            <Footer/>
+            <AboutUs />
+            <Services />
+            <Experts />
+            <Students />
+            <ContactUs />
         </div>        
     )
 }

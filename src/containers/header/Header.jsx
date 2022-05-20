@@ -1,9 +1,17 @@
 import React from 'react';
 import './header.css';
+import { Element } from 'react-scroll'
 
 const Header = () => {
   return (
-    <div className="contentTest">Header</div>
+    <React.Fragment>
+      <Element id='header-section' name='header-section'>
+        <div className="BTM__header" id="BTM__header">
+          <div className="BTM__header_BG"/>
+        </div>
+      </Element>
+    </React.Fragment>
+    
   )
 }
 
