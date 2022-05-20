@@ -7,7 +7,7 @@ const Experts = () => {
     <React.Fragment>
       <Element id='experts-section' name='experts-section'>
         <div className="BTM__experts" id="BTM__experts">
-        EXPERTS / hello World
+        EXPERTS / hello World its a beutiful day
           <div className="BTM__experts_BG"/>
         </div>
       </Element>
