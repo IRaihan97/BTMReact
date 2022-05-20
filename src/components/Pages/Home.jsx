@@ -1,4 +1,4 @@
-import { Header, AboutUs, Services, Experts, Students, ContactUs} from '../../containers';
+import { Header, AboutUs, Services, Experts, Students, ContactUs, BTMProjects} from '../../containers';
 import React from 'react';
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
             <Experts />
             <Students />
             <ContactUs />
+            <BTMProjects />
         </div>        
     )
 }
