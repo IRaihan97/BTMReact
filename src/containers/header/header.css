@@ -16,6 +16,35 @@
     
 }
 
+.header__overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.header__content{
+    margin-top: 350px;
+    margin-left: 1150px;
+    width: 400px;
+}
+
+p{
+    font-size: 40px;
+    color: #A6C9FF;
+}
+
+button{
+    background-color: #1E2B57;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px){
     .BTM__header_BG{
         background-image: url('../../assets/brunel.png');
