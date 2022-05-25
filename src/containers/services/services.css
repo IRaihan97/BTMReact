@@ -1,4 +1,12 @@
 .BTM__services{
     height: 800px;
+    width: 100%;
     background: rgb(27, 121, 145);
+    position: absolute;
+}
+
+.services__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -11,7 +11,10 @@ const Services = () => {
         <div className="BTM__services_BG"/>        
           <div className="services__overlay">
             <div className="services__content">
-              <ServiceCard title="App Development" content="Testing content for this card that is supposed to hold a service for the website. Thank you very much"/>          </div>
+              <ServiceCard title="Social Media Analytics" content="Our experts use their industrial experience and academic rigour to find meaning in data gathered from social channels to support business decisions."/>         
+              <ServiceCard title="Algorithm Testing" content="We use scientific methods to evaluate algorithms' validity or to compare the efficiency of a group of algorithms addressing a specific problem."/>
+              <ServiceCard title="Adhoc Projects" content="Providing either completely or sectionalised development on ADHOC projects following a standard data analysis life cycle: 1. business understanding; 2. data understanding; 3. data preparation; 4. exploratory analysis and modelling; 5. validation, and 6. visualisation and presentation."/>
+            </div>
         </div>
       </div>
     </Element>

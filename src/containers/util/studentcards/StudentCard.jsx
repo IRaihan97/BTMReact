@@ -1,12 +1,14 @@
 import React from 'react'
-import './servicecard.css'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
+import './studentcard.css'
+import Card from '@mui/material/Card'
+import CardContent from '@mui/material/CardContent'
+import Typography from '@mui/material/Typography'
 
-const ServiceCard = ({title, content}) => {
+
+const StudentCard = ({title, content}) => {
   return (
     <Card className= "BTM__ServiceCard" sx={{borderRadius: 6}}>
+      <div>TESTING MODAFOCKA</div>
       <CardContent>
         <Typography variant="h4" component="div" style={{textAlign:"center"}}>
           {title}
@@ -19,4 +21,4 @@ const ServiceCard = ({title, content}) => {
   )
 }
 
-export default ServiceCard
+export default StudentCard
