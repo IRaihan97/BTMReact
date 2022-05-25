@@ -1,9 +1,8 @@
 import React from 'react';
-import { Header} from './containers';
 import { Brand, CTA, Navbar, NewNav} from './components';
 import './App.css';
 import './index.css';
-import { Experts, Home, OurServices, Talents, WhatIs } from './components/Pages';
+import { Experts, Main, OurServices, Talents, WhatIs } from './components/Pages';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const App = () => {
@@ -14,7 +13,7 @@ const App = () => {
             <Navbar/>
           </div>
           <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/" element={<Main/>}/>
           </Routes>
         </Router> 
       </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import './header.css';
+import './home.css';
 import { Element } from 'react-scroll'
 import {Link} from 'react-scroll'
 
-const Header = () => {
+const Home = () => {
   return (
     <React.Fragment>
       <Element id='header-section' name='header-section'>
@@ -36,4 +36,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Home

@@ -1,10 +1,10 @@
-import { Header, AboutUs, Services, Experts, Students, ContactUs, BTMProjects} from '../../containers';
+import { Home, AboutUs, Services, Experts, Students, ContactUs, BTMProjects} from '../../containers';
 import React from 'react';
 
-const Home = () => {
+const Main = () => {
     return(
         <div>
-            <Header/>
+            <Home/>
             <AboutUs />
             <Services />
             <Experts />
@@ -15,4 +15,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Main;

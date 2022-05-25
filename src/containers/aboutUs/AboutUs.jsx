@@ -10,7 +10,7 @@ const AboutUs = () => {
       <div className="BTM__about" id="BTM__about">
         <div className="BTM__about_BG"/>
       </div>
-      ABOUT
+      
     </Element>
   </React.Fragment>
   )
