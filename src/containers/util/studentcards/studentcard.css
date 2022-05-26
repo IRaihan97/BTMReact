@@ -1,13 +1,22 @@
-.BTM__ServiceCard{
+.BTM__StudentCard{
     width: 30rem;
-    height: 20rem;
     align-items: center;
     margin: 3rem;
     box-shadow: 2px;
-    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .ServiceCard__content{
     font-size: 30px;
     color: blue;
+}
+
+.BTM__Student_Photo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: aliceblue;
 }

@@ -1,4 +1,11 @@
 .BTM__students{
-    height: 800px;
+    width: 100%;
     background: rgb(255, 239, 14);
+
+}
+
+.students__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

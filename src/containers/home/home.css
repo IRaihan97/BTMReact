@@ -21,18 +21,15 @@
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
+    padding-top: 24rem;
+    padding-left: 77rem;
     position: absolute;
 }
 
 .header__content{
-    margin-top: 24rem;
-    margin-left: 77rem;
-    width: 400px;
-}
-
-p{
     font-size: 40px;
     color: #A6C9FF;
+    width: 400px;
 }
 
 button{

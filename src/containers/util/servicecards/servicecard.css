@@ -1,13 +1,6 @@
 .BTM__ServiceCard{
     width: 30rem;
-    height: 20rem;
     align-items: center;
-    margin: 3rem;
-    box-shadow: 2px;
-    padding-top: 7px;
+    margin:2rem;
 }
 
-.ServiceCard__content{
-    font-size: 30px;
-    color: blue;
-}

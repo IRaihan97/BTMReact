@@ -7,13 +7,15 @@ import Typography from '@mui/material/Typography'
 
 const StudentCard = ({title, content}) => {
   return (
-    <Card className= "BTM__ServiceCard" sx={{borderRadius: 6}}>
-      <div>TESTING MODAFOCKA</div>
+    <Card className= "BTM__StudentCard" sx={{borderRadius: 6}}>
+      <div className='BTM__Student_Photo'>
+        <img className="Student_Photo"></img>
+      </div>
       <CardContent>
         <Typography variant="h4" component="div" style={{textAlign:"center"}}>
           {title}
         </Typography>
-        <Typography sx={{ m: 5 }} color="#011C46" style={{textAlign:"center"}}>
+        <Typography color="#011C46" style={{textAlign:"center"}}>
           {content}
         </Typography>
       </CardContent>

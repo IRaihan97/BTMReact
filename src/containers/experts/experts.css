@@ -1,4 +1,6 @@
 .BTM__experts{
-    height: 800px;
+    width: 100%;
+    height: 60rem;
     background: rgb(32, 35, 173);
+    position:relative;
 }
