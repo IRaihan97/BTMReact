@@ -5,11 +5,11 @@ import CardContent from '@mui/material/CardContent'
 import Typography from '@mui/material/Typography'
 
 
-const StudentCard = ({title, content}) => {
+const StudentCard = ({title, content, studentPhoto}) => {
   return (
     <Card className= "BTM__StudentCard" sx={{borderRadius: 6}}>
       <div className='BTM__Student_Photo'>
-        <img className="Student_Photo"></img>
+        <img className="Student_Photo" src={studentPhoto}></img>
       </div>
       <CardContent>
         <Typography variant="h4" component="div" style={{textAlign:"center"}}>

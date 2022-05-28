@@ -1,9 +1,8 @@
 .BTM__StudentCard{
-    width: 30rem;
     align-items: center;
     margin: 3rem;
     box-shadow: 2px;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -15,8 +14,19 @@
 }
 
 .BTM__Student_Photo{
-    height: 10rem;
-    width: 10rem;
+    height: 9rem;
+    width: 100%;
     border-radius: 2rem;
-    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Student_Photo{
+    width: 9rem;
+    height: 9rem;
+    position:inherit;
+    object-fit: cover;
+    border-radius: 3rem;
+    border-style:hidden;
 }
