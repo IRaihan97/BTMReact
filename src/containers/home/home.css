@@ -7,9 +7,10 @@
 }
 
 .BTM__header_BG{
-    background-image: url('../../assets/brunel.png');
+    background-image: url('../../assets/brunel_cropped.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 100%;
     position: absolute;

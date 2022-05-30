@@ -1,5 +1,6 @@
 .BTM__about{
-    height: 1600px;
-    background: rgb(153, 48, 0);
+    background: var(--color-bg);
     position: relative;
+    
 }
+
