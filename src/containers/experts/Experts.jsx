@@ -71,6 +71,9 @@ const Experts = () => {
         <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Experts</h1>} />
         <div className="BTM__experts" id="BTM__experts">
           <div className="BTM__experts_BG"/>
+          <div className="BTM__testimonials">
+            SLIDESHOW
+          </div>
           <div className="experts__content">
             <div className="experts__cards">
               {row1}

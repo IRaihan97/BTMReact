@@ -1,4 +1,4 @@
-import { Home, AboutUs, Services, Experts, Students, ContactUs, BTMProjects} from '../../containers';
+import { Home, AboutUs, Services, Experts, Students, ContactUs, BTMProjects, Footer} from '../../containers';
 import React from 'react';
 
 const Main = () => {
@@ -10,7 +10,8 @@ const Main = () => {
             <Experts />
             <Students />
             <ContactUs />
-            <BTMProjects />
+            {/* <BTMProjects /> */}
+            <Footer />
         </div>        
     )
 }

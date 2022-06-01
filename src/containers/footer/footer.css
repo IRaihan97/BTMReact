@@ -1,4 +1,31 @@
 .BTM__footer{
-    height: 800px;
-    background: rgb(47, 146, 8);
+    background: #011C46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.BTM__footer p{
+    color: white;
+}
+
+.BTM__footer_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections__container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+}
+
+.footer__sections{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    color: white;
 }
