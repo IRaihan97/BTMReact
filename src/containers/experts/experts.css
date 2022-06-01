@@ -1,6 +1,12 @@
 .BTM__experts{
     width: 100%;
-    height: 60rem;
-    background: rgb(32, 35, 173);
+    background: var(--color-bg);
     position:relative;
+}
+
+.experts__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

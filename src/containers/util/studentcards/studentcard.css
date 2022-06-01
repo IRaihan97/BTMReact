@@ -1,4 +1,5 @@
 .BTM__StudentCard{
+    width: 30rem;
     align-items: center;
     margin: 3rem;
     box-shadow: 2px;
@@ -16,7 +17,6 @@
 .BTM__Student_Photo{
     height: 9rem;
     width: 100%;
-    border-radius: 2rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -28,5 +28,47 @@
     position:inherit;
     object-fit: cover;
     border-radius: 3rem;
-    border-style:hidden;
+    border: 0.5px
+}
+
+.Student__content{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-cardcontent-bg);
+}
+
+.student__buttons{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+.student__button_git{
+    background-image: url('../../../assets/students/github.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.student__button_cv{
+    background-image: url('../../../assets/students/cv.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.student__button_lin{
+    background-image: url('../../../assets/students/linkedin.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
 }

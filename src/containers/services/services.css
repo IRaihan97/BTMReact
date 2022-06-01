@@ -1,36 +1,15 @@
 .BTM__services{
-    height: 1600px;
     width: 100%;
-    background: rgb(27, 121, 145);
+    background: var(--color-bg);
     position: relative;
 }
 
-.data__analysis__and__AI{
+.services__overlay{
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.software__development{
-    display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.UI__and__UX__design{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.proof__of__concept{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.applied__R__and_D{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
 }

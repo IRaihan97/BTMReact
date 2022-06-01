@@ -24,7 +24,7 @@ const Home = () => {
                 spy={true}
                 smooth={true}
                 duration={500}>
-                  <button>Click Here for More</button>
+                  <button className="home__button">Click Here for More</button>
                 </Link>
               </div>
             </div>

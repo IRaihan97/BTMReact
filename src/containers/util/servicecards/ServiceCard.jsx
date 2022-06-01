@@ -11,7 +11,7 @@ const ServiceCard = ({title, content}) => {
         <Typography variant="h4" component="div" style={{textAlign:"center"}}>
           {title}
         </Typography>
-        <Typography sx={{ m: 1 }} color="#011C46" style={{textAlign:"center", textJustify: "inter-word"}}>
+        <Typography sx={{ m: 1 }} color="#011C46" style={{textAlign:"center", textJustify: "inter-word", verticalAlign:"center"}}>
           {content}
         </Typography>
       </CardContent>

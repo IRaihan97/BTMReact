@@ -2,5 +2,6 @@
     width: 30rem;
     align-items: center;
     margin:2rem;
+    display: flex;
 }
 
