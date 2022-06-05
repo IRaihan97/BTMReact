@@ -33,7 +33,7 @@ const proofOfCon =  <>
                     </>
 
 const appliedRD = <>
-                    <ServiceCard title={<h3>IT Trends Insight Reports</h3>} content={<p>We help organisations to answer R and D questions related to IT that can be found in our international bank of scientific literature sources. Our PG students and experts are well equipped to dig out the information you need and present it in a report for the layperson.</p>}/>
+                    <ServiceCard title={<h3>IT Trends Insight Reports</h3>} content={<p>We help organisations to answer R&D questions related to IT that can be found in our international bank of scientific literature sources. Our PG students and experts are well equipped to dig out the information you need and present it in a report for the layperson.</p>}/>
                     <ServiceCard title={<h3>Tech Monitor</h3>} content={<p>Our large network of academics places us in a position that we can monitor the upcoming trends on IT in the academic sector. Using our international academic network, we produce reports that provides a deeper understanding to various upcoming trends in the academic world of IT. This will guide our clients to progressive and strategic decisions that will aid their business decisions in the future.</p>}/>
                   </>
 
@@ -49,6 +49,7 @@ const Services = () => {
         <Header bgImg={serviceImg} title={<h1 style={{color:"white"}}>Services</h1>}/>
         <div className="BTM__services_BG"/>        
           <div className="services__overlay">
+            {/* DO a container for each expert per service area */}
             <ContentHolder bgImg={dataandai} title={<h1>Data and AI</h1>} content={DataAI} topP={paddingTop} bottomP={paddingBot}/>
             <ContentHolder bgImg={softwaredev} title={<h1>Software Development</h1>} content={softwareDev} topP={paddingTop} bottomP={paddingBot}/>
             <ContentHolder bgImg={uxui} title={<h1>UX & UI Design</h1>} content={UXDesign} topP={paddingTop} bottomP={paddingBot}/>

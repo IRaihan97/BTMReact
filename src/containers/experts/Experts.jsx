@@ -2,7 +2,7 @@ import React from 'react'
 import './experts.css'
 import { Element } from 'react-scroll'
 import headerImg from '../../assets/experts/header.png'
-import {Header, StudentCard} from '../util/index'
+import {Header, StudentCard, Slideshow} from '../util/index'
 import Alan from '../../assets/experts/Alan_Serrano_Rico.png'
 import Giuseppe from '../../assets/experts/Giuseppe_Destefanis.png'
 import Rumy from '../../assets/experts/Rumyana_Neykova.png'
@@ -72,7 +72,7 @@ const Experts = () => {
         <div className="BTM__experts" id="BTM__experts">
           <div className="BTM__experts_BG"/>
           <div className="BTM__testimonials">
-            SLIDESHOW
+            <Slideshow/>
           </div>
           <div className="experts__content">
             <div className="experts__cards">

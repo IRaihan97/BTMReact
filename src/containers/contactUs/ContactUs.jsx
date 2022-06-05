@@ -12,10 +12,12 @@ const ContactUs = () => {
               <div className='contact__msg'>
                 <h1> Contact Us</h1>
                 <p> We offer a multitude of services withing our domain
-If you would like to know more, submit an enquiry through the form</p>
+                    If you would like to know more, submit an enquiry through the form</p>
               </div>
               <div className='contact__form'>
                   FORM PLACEHOLDER
+                  {/* Email*, Full name*, COmpany, JobTitle, Phone number, Message* */}
+                  {/* Send Email to BTM Email */}
               </div>
             </div>
           </div>

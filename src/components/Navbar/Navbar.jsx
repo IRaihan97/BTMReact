@@ -37,6 +37,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}>
             <p>Services</p>
+            {/* Create Dropdown */}
           </Link>
           <Link 
           activeClass='active'
@@ -46,6 +47,7 @@ const Navbar = () => {
           duration={500}>
             <p>Experts</p>
           </Link>
+          {/* Change into single section with dropdown - Talents > Students, Experts */}
           <Link 
           activeClass='active'
           to="students-section"
