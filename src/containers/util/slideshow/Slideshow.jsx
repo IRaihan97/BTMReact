@@ -2,19 +2,23 @@ import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import 'react-awesome-slider/dist/styles.css';
 import './slideshow.css'
-import Mandeep from '../../../assets/experts/mandeep.mp4'
-import Phillip from '../../../assets/experts/phillip.mp4'
+import Mandeep from '../../../assets/experts/mandeepbanner.png'
+import Phillip from '../../../assets/experts/phillipbanner.png'
 
 
 const Slideshow = () => {
-  return (
+    return (
     <div className='slider__holder'>
-        <AwesomeSlider bullets={false}>
+        <AwesomeSlider>
             <div className='testimonial__slides'>
-                <video src={Mandeep} width="100%" height="100%"/>
+                <a href=''>
+                    <img src={Mandeep} width="100%" height="100%"/>
+                </a>
             </div>
             <div className='testimonial__slides'>
-                <video src={Phillip} width="100%" height="100%"/>
+                <a href=''>
+                    <img src={Phillip} width="100%" height="100%"/>
+                </a>
             </div>
         </AwesomeSlider>
     </div>

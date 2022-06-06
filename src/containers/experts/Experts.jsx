@@ -68,13 +68,15 @@ const Experts = () => {
   return (
     <React.Fragment>
       <Element id='experts-section' name='experts-section'>
-        <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Experts</h1>} />
+        <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Our Talents</h1>} />
         <div className="BTM__experts" id="BTM__experts">
           <div className="BTM__experts_BG"/>
           <div className="BTM__testimonials">
+          <h2 style={{color: "white", fontSize: 30, margin: 20}}>Watch Our Testimonials</h2>
             <Slideshow/>
           </div>
           <div className="experts__content">
+            <h2 style={{color: "white", fontSize: 30}}>Executive Team</h2>
             <div className="experts__cards">
               {row1}
             </div>
