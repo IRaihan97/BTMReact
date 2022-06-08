@@ -11,6 +11,7 @@ const Home = () => {
           <div className="BTM__header_BG">
             <div className="header__overlay">
               <div className="header__content">
+                <div><span style={{color: "white"}}>Brunel</span><span style={{color: "#4588F1", fontWeight:"bold"}}>Talent</span><span style={{color: "white"}}>MarketPlace</span></div>
                 <p>Fostering symbiotic 
                     relationships between
                     industry and academia 
@@ -18,14 +19,14 @@ const Home = () => {
                     Science services delivered by our
                     leading experts and 
                     talented students. </p>
-                <Link
+                {/* <Link
                 activeClass='active'
                 to="about-section"
                 spy={true}
                 smooth={true}
                 duration={500}>
                   <button className="home__button">Click Here for More</button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

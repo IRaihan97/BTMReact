@@ -2,7 +2,7 @@ import React from 'react'
 import './experts.css'
 import { Element } from 'react-scroll'
 import headerImg from '../../assets/experts/header.png'
-import {Header, StudentCard, Slideshow} from '../util/index'
+import {Header, StudentCard} from '../util/index'
 import Alan from '../../assets/experts/Alan_Serrano_Rico.png'
 import Giuseppe from '../../assets/experts/Giuseppe_Destefanis.png'
 import Rumy from '../../assets/experts/Rumyana_Neykova.png'
@@ -71,18 +71,24 @@ const Experts = () => {
         <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Our Talents</h1>} />
         <div className="BTM__experts" id="BTM__experts">
           <div className="BTM__experts_BG"/>
-          <div className="BTM__testimonials">
-          <h2 style={{color: "white", fontSize: 30, margin: 20}}>Watch Our Testimonials</h2>
-            <Slideshow/>
-          </div>
           <div className="experts__content">
-            <h2 style={{color: "white", fontSize: 30}}>Executive Team</h2>
+            <h2 style={{color: "white", fontSize: 40}}>Executive Team</h2>
             <div className="experts__cards">
               {row1}
             </div>
+            <h2 style={{color: "white", fontSize: 30}}>Data Analysis and AI</h2>
             <div className="experts__cards">
               {row2}
             </div>
+            <h2 style={{color: "white", fontSize: 30}}>Software Development</h2>
+            <div className="experts__cards">
+              {row3}
+            </div>
+            <h2 style={{color: "white", fontSize: 30}}>UX & UI Design</h2>
+            <div className="experts__cards">
+              {row3}
+            </div>
+            <h2 style={{color: "white", fontSize: 30}}>Applied R&D</h2>
             <div className="experts__cards">
               {row3}
             </div>

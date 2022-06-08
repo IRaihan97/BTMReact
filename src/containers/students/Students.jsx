@@ -26,15 +26,18 @@ const Students = () => {
   return (
     <React.Fragment>
       <Element id='students-section' name='students-section'>
-      <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Students</h1>} />
+      {/* <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Students</h1>} /> */}
         <div className="BTM__students" id="BTM__students">
-          <h2 style={{color: "white", fontSize: 30}}>Meet Our Students</h2>
-          <div className="BTM__students_BG"/>
-          <div className="students__overlay">
-            <div className="students__content">
-              <div className="students__cards">
-                {row1}
-              </div>
+          <h2 style={{color: "white", fontSize: 30}}>Our Current Students</h2>
+          <div className="students__content">
+            <div className="students__cards">
+              {row1}
+            </div>
+          </div>
+          <h2 style={{color: "white", fontSize: 30}}>Graduated Students</h2>
+          <div className="students__content">
+            <div className="students__cards">
+              {row1}
             </div>
           </div>
         </div>

@@ -5,10 +5,10 @@ const Main = () => {
     return(
         <div>
             <Home/>
-            <AboutUs />
             <Services />
             <Experts />
             <Students />
+            <AboutUs />
             <ContactUs />
             {/* <BTMProjects /> */}
             <Footer />
