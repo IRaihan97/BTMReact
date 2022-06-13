@@ -4,8 +4,13 @@ import './App.css';
 import './index.css';
 import { Experts, Main, OurServices, Talents, WhatIs } from './components/Pages';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { useEffect } from "react";
+
 
 const App = () => {
+
+  
+
   return (
       <div className="App">
         <Router>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './contactUs.css'
 import { Element } from 'react-scroll'
+import {ContactForm} from '../util/index'
 
 const ContactUs = () => {
   return (
@@ -15,14 +16,15 @@ const ContactUs = () => {
                     If you would like to know more, submit an enquiry through the form</p>
               </div>
               <div className='contact__form'>
-                  FORM PLACEHOLDER
+                  
+                  <ContactForm/>
                   {/* Email*, Full name*, COmpany, JobTitle, Phone number, Message* */}
                   {/* Send Email to BTM Email */}
               </div>
             </div>
           </div>
         </div>
-      </Element>
+      </Element> 
     </React.Fragment>
   )
 }
