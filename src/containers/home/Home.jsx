@@ -1,7 +1,10 @@
 import React from 'react';
 import './home.css';
 import { Element } from 'react-scroll'
-import {Link} from 'react-scroll'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
+
+
 
 const Home = () => {
   return (
@@ -11,14 +14,25 @@ const Home = () => {
           <div className="BTM__header_BG">
             <div className="header__overlay">
               <div className="header__content">
-                <div><span style={{color: "white"}}>Brunel</span><span style={{color: "#4588F1", fontWeight:"bold"}}>Talent</span><span style={{color: "white"}}>MarketPlace</span></div>
-                <p>Fostering symbiotic 
-                    relationships between
-                    industry and academia 
-                    through innovative IT & Data
-                    Science services delivered by our
-                    leading experts and 
-                    talented students. </p>
+                <AnimationOnScroll 
+                  animateIn='animate__fadeInDown'
+                  animateOnce='true'
+                  
+                  >
+                  <div><span style={{color: "white"}}>Brunel</span><span style={{color: "#4588F1", fontWeight:"bold"}}>Talent</span><span style={{color: "white"}}>MarketPlace</span></div>
+                </AnimationOnScroll>
+                <AnimationOnScroll
+                  animateIn='animate__fadeIn'
+                  animateOnce='true'
+                  delay={1000}>
+                  <p>Fostering symbiotic 
+                      relationships between
+                      industry and academia 
+                      through innovative IT & Data
+                      Science services delivered by our
+                      leading experts and 
+                      talented students. </p>
+                </AnimationOnScroll>
                 {/* <Link
                 activeClass='active'
                 to="about-section"

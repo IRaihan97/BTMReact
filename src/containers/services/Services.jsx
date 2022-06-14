@@ -9,7 +9,8 @@ import poc from '../../assets/services/poc.png'
 import randd from '../../assets/services/randd.png'
 import softwaredev from '../../assets/services/softwaredev.png'
 import uxui from '../../assets/services/uxui.png'
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const DataAI =  <>
                   <ServiceCard title={<h3>Social Media Analytics</h3>} content={<p>Our experts use their industrial experience and academic rigour to find meaning in data gathered from social channels to support business decisions.</p>}/>         
@@ -45,8 +46,16 @@ const Services = () => {
   return (
   <React.Fragment>
     <Element id='services-section' name='services-section'>
+      
       <div className="BTM__services" id="BTM__services">
+
+        <AnimationOnScroll 
+          animateIn='animate__fadeInDown'
+          animateOnce='true'
+        >
         <Header bgImg={serviceImg} title={<h1 style={{color:"white"}}>Services</h1>}/>
+        </AnimationOnScroll>
+
         <div className="BTM__services_BG"/>        
           <div className="services__overlay">
             {/* DO a container for each expert per service area */}
