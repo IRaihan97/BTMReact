@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="BTM__navbar">
       <div className="BTM__navbar-link_logo">
-        <img src={logo} alt="logo" width="100" height="100"/>
+        <img src={logo} alt="logo" width="200" height="78"/>
       </div>
       <div className="BTM__navbar-link">
         <div className="BTM__navbar-link_container">
