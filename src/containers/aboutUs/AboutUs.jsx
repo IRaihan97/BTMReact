@@ -24,10 +24,7 @@ const AboutUs = () => {
         {/* Change section into single vision and mission section */}
         {/* Add Testimonials in this section */}
         {/* Create a BTM email from jeremy */}
-        <div className="BTM__testimonials">
-          <h2 style={{color: "white", fontSize: 30, margin: 20}}>Watch Our Testimonials</h2>
-          <Slideshow/>
-        </div>
+        
         
         <AnimationOnScroll 
           animateIn='animate__fadeIn'
@@ -41,10 +38,6 @@ const AboutUs = () => {
                 <h1>Our Mission</h1>
                 <p>To bridge the gap between industry and academia through innovative IT & Data Science services. Unlike most of our competition, we are not a profit-driven organisation. Rather, we are a marketplace, that aims to foster symbiotic relations between our customers and the university. We are distinguishable by our bank of both talented students as well as staff-leading specialists.</p>
               </div>
-            </AnimationOnScroll>
-            <AnimationOnScroll 
-                animateIn='animate__zoomIn'
-                animateOnce='true'>
               <div className='BTM__statement_content'>
                 <h1>Our Vision</h1>
                 <p>To become a recognisable and viable IT consultancy known for its Research & Development services for West London businesses. We aspire to give 2% of the computer department’s student cohort the opportunity to participate in BTM projects. We aim to expand this model to other university departments, such as design, business management, and mechanical engineering.  </p>
@@ -53,6 +46,11 @@ const AboutUs = () => {
             </div>
           </div>
         </AnimationOnScroll>
+
+        <div className="BTM__testimonials">
+          <h2 style={{color: "white", fontSize: 30, margin: 20}}>Watch Our Testimonials</h2>
+          <Slideshow/>
+        </div>
         {/* <ContentHolder bgImg={bridgeImg} title={<h1>Our Mission</h1>} content={<div style={{color: "white", fontSize: 30}}><p>To bridge the gap between industry and academia through innovative IT & Data Science services. Unlike most of our competition, we are not a profit-driven organisation. Rather, we are a marketplace, that aims to foster symbiotic relations between our customers and the university. We are distinguishable by our bank of both talented students as well as staff-leading specialists.</p></div>} topP={paddingTop} bottomP={paddingBot}/>
         <ContentHolder bgImg={eyeImg} title={<h1>Our Vision</h1>} content={<div style={{color: "white", fontSize: 30}}><p>To become a recognisable and viable IT consultancy known for its Research & Development services for West London businesses. We aspire to give 2% of the computer department’s student cohort the opportunity to participate in BTM projects. We aim to expand this model to other university departments, such as design, business management, and mechanical engineering.  </p></div>} topP={paddingTop} bottomP={paddingBot}/> */}
       </div>

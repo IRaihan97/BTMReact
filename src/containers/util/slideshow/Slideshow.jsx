@@ -11,12 +11,12 @@ const Slideshow = () => {
     <div className='slider__holder'>
         <AwesomeSlider>
             <div className='testimonial__slides'>
-                <a href=''>
+                <a href='https://youtu.be/B8Qi0zCwnTg'>
                     <img src={Mandeep} width="100%" height="100%"/>
                 </a>
             </div>
             <div className='testimonial__slides'>
-                <a href=''>
+                <a href='https://youtu.be/kvqfa1wolj0'>
                     <img src={Phillip} width="100%" height="100%"/>
                 </a>
             </div>
