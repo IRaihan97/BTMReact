@@ -23,7 +23,6 @@ const Home = () => {
                 </AnimationOnScroll>
                 <AnimationOnScroll
                   animateIn='animate__fadeIn'
-                  animateOnce='true'
                   delay={1000}>
                   <p>Fostering symbiotic 
                       relationships between

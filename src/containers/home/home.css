@@ -19,7 +19,7 @@
 }
 
 .header__overlay{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     padding-top: 20rem;
