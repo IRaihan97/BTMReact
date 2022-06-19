@@ -8,7 +8,12 @@ import "animate.css/animate.min.css";
 const Main = () => {
     return(
         <div>
-            <Home/>
+            <AnimationOnScroll 
+                animateIn='animate__fadeIn'
+                animateOnce='true'>
+                <Home/>
+            </AnimationOnScroll>
+            
             
             <AnimationOnScroll 
                 animateIn='animate__fadeIn'

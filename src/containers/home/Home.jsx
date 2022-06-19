@@ -15,9 +15,7 @@ const Home = () => {
             <div className="header__overlay">
               <div className="header__content">
                 <AnimationOnScroll 
-                  animateIn='animate__fadeInDown'
-                  animateOnce='true'
-                  
+                  animateIn='animate__fadeInDown'                  
                   >
                   <div><span style={{color: "white"}}>Brunel</span><span style={{color: "#4588F1", fontWeight:"bold"}}>Talent</span><span style={{color: "white"}}>MarketPlace</span></div>
                 </AnimationOnScroll>
