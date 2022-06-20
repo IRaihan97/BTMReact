@@ -12,6 +12,7 @@ import David from '../../assets/experts/David_Bell.png'
 import Alaa from '../../assets/experts/Alaa_Marshan.png'
 import Kate from '../../assets/experts/Kate_Hone.png'
 import Tim from '../../assets/experts/Timothy_Cribbin.png'
+import NoPic from '../../assets/experts/No_Picture.png'
 
 const row1 =  <>
                 <StudentCard 
@@ -65,10 +66,14 @@ const row3 = <>
                   name={<h3>Mahir Arzoky</h3>} 
                   description={<p>Dr Mahir Arzoky is a researcher, whose interest corresponds with artificial intelligence, intelligent data analysis, heuristic search, search-based software engineering, and data clustering & database refactoring. On top of this, he is also a core member of FIAR-NET, where he frequently promotes the collaborations between industry and academic research in software engineering through a series of national and internal workshops.</p> } 
                   skills={<p>•	Artificial Intelligence<br/>•	Intelligent Data Analysis<br/>•	Heuristic Search<br/>•	Search-Based Software Engineering<br/>•	Data Clustering & Database Refactoring</p>}
+<<<<<<< HEAD
                   studentPhoto={Alaa}
                   profile={"/"}
                   lin={"/"}
                   expert="true"
+=======
+                  studentPhoto={NoPic}
+>>>>>>> 6cc0d4796dfa95ae9253f3c22f0576253f617b34
                 />
               </>
 
@@ -164,6 +169,7 @@ const Experts = () => {
             <div className="experts__cards">
               {row4}
             </div>
+<<<<<<< HEAD
             {/* <div className="experts__cards">
               {row5}
             </div> */}
@@ -172,6 +178,13 @@ const Experts = () => {
               {row5}
             </div>
             <h2 style={{color: "white", fontSize: 40}}>UX & UI Experts</h2>
+=======
+            <h2 style={{color: "white", fontSize: 30}}>Applied R&D Experts</h2>
+            <div className="experts__cards">
+              {row5}
+            </div>
+            <h2 style={{color: "white", fontSize: 30}}>UI & UI Experts</h2>
+>>>>>>> 6cc0d4796dfa95ae9253f3c22f0576253f617b34
             <div className="experts__cards">
               {row6}
             </div>
