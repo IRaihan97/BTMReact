@@ -4,23 +4,38 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import { CardActions } from '@mui/material'
 import Typography from '@mui/material/Typography'
-import Button from 'react-scroll/modules/components/Button'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import 'animate.css/animate.min.css'
 
+export const talentButton = ({member, profile}) => {
+  if(member){
+    return(
+      <a href={profile}><button className='student__profile'> Academic Profile </button></a>
+    )
+  }
+  else{
+    return(
+      <a href={profile}><button className='student__profile'> GIT </button></a>
+    )
+  }
+}
 
-const StudentCard = ({title, description, skills, studentPhoto}) => {
+
+const StudentCard = ({role, name, description, skills, studentPhoto, profile, lin, expert}) => {
   return (
     <AnimationOnScroll 
       animateIn='animate__fadeIn'
       animateOnce='true'>
-      <Card className= "BTM__StudentCard" sx={{borderRadius: 6}} variant="outlined">
+      <Card className= "BTM__StudentCard" sx={{borderRadius: 6, backgroundColor: "#031B34"}} variant="outlined">
         <div className='BTM__Student_Photo'>
-          <img className="Student_Photo" src={studentPhoto}></img>
+          <img className="Student_Photo" src={studentPhoto}/>
         </div>
+        <Typography className="student__name" variant="h5" component="div" style={{textAlign:"center", color: "white", marginTop: "0.5rem"}}>
+            {role}
+          </Typography>
         <CardContent className='Student__content'>
           <Typography className="student__name" variant="h5" component="div" style={{textAlign:"left", color: "#82CAFF"}}>
-            {title}
+            {name}
           </Typography>
           <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
             Who Am I
@@ -35,10 +50,12 @@ const StudentCard = ({title, description, skills, studentPhoto}) => {
             {skills}
           </Typography>
         </CardContent>
-        <CardActions sx={{ml: 1/2}}>
-          <button className="student__button_git"></button>
-          <button className="student__button_cv"></button>
-          <button className="student__button_lin"></button>
+        <CardActions className='student__actions' sx={{ml: 1/2,
+        justifyContent: "flex-end"}}>
+          {expert
+            ?<a href={profile} target="_blank" rel="noreferrer noopener"><button className='student__profile'> Academic Profile </button></a>
+            :<a href={profile} target="_blank" rel="noreferrer noopener"> <button className="student__button_git"></button></a>}
+          <a href={lin} target="_blank" rel="noreferrer noopener"><button className="student__button_lin"></button></a>
         </CardActions>
       </Card>
     </AnimationOnScroll>

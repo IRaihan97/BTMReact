@@ -11,12 +11,8 @@ const row1 =  <>
                   description={<p>I am an enthusiastic individual who is fascinated by technology and its constant advancements. I am currently going through my final year on Computer Science Software Engeering course.</p> } 
                   skills={<p>API Development<br/>Web Development<br/>Software Engineering<br/>Java<br/>C#</p>}
                   studentPhoto={IslamRaihan}
-                />
-                <StudentCard 
-                  title={<h3>Islam Raihan</h3>} 
-                  description={<p>I am an enthusiastic individual who is fascinated by technology and its constant advancements. I am currently going through my final year on Computer Science Software Engeering course.</p> } 
-                  skills={<p>API Development<br/>Web Development<br/>Software Engineering<br/>Java<br/>C#</p>}
-                  studentPhoto={IslamRaihan}
+                  profile={"https://github.com/IRaihan97"}
+                  lin={"https://www.linkedin.com/in/islam-raihan-714784195"}
                 />
                 
                 
@@ -26,7 +22,7 @@ const Students = () => {
   return (
     <React.Fragment>
       <Element id='students-section' name='students-section'>
-      {/* <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Students</h1>} /> */}
+      <Header bgImg={headerImg} title={<h1 style={{color:"white"}}>Students</h1>} />
         <div className="BTM__students" id="BTM__students">
           <h2 style={{color: "white", fontSize: 30}}>Our Current Students</h2>
           <div className="students__content">
