@@ -16,85 +16,118 @@ import NoPic from '../../assets/experts/No_Picture.png'
 
 const row1 =  <>
                 <StudentCard 
-                  title={<h3>Alan Serrano Rico</h3>} 
+                  role={<h2>Executive</h2>}
+                  name={<h3>Alan Serrano Rico</h3>} 
                   description={<p>Dr Alan Serrano-Rico is an experienced researcher, whose research lies in the domain of information systems and organisational strategy. More specifically he has an interest in incorporating his research and applying them into real-life challenges organisations may face when adopting ICT in complex environments. Some examples of the collaborations with industry includes that of the BMW Group in UK.</p> } 
                   skills={<p>•	Information Systems<br/>•	Business Organisational Strategy<br/>•	Data Communication Systems<br/>•	Social Network Analysis (SNA)<br/>•	Business Process & Simulation</p>}
                   studentPhoto={Alan}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               </>
 
 const row2 =  <>
                 <StudentCard 
-                  title={<h3>Alina Miron</h3>} 
+                  role={<h3>AI Expert</h3>}
+                  name={<h3>Alina Miron</h3>} 
                   description={<p>-	COULD NOT FIND ANYTHING YET…</p> } 
                   skills={<p>•	Multimodal Systems<br/>•	Machine Learning<br/>•	Data Analysis<br/>•	Artificial Intelligence<br/>•	Software Development</p>}
                   studentPhoto={Alina}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
                 <StudentCard 
-                  title={<h3>Stephen Swift</h3>} 
+                  role={<h3>AI Expert</h3>}
+                  name={<h3>Stephen Swift</h3>} 
                   description={<p>Dr Stephen Swift is a researcher, whose interests spans across multi-variate time series analysis, heuristic search, data clustering and evolutionary computation. He has applied his research to various real-world areas including Engineering, Bioinformatics and Health Care. In terms of industry, he also spent 4 years working as a Web Designer, Programmer, and Technical Architect at several companies such as Bull Information Systems Ltd.</p> } 
                   skills={<p>•	Multi-variate Time Series Analysis<br/>•	Heuristic Search<br/>•	Data Clustering<br/>•	Evolutionary Computation<br/>•	Artificial Intelligence</p>}
                   studentPhoto={Steph}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               </>
 
 const row3 = <>
                 <StudentCard 
-                  title={<h3>Alaa Marshaan</h3>} 
+                  role={<h3>AI Expert</h3>}
+                  name={<h3>Alaa Marshaan</h3>} 
                   description={<p>Dr Alaa Marshaan is a skilled researcher, who primarily focuses his research on intelligent data analysis, information management and improving operational business information systems. Furthermore, he has garnered 10+ years’ experience working in various IT positions at corporations such as the UK branch of the BMW Group.</p> } 
                   skills={<p>•	Social Network Analysis (SNA)<br/>•	Machine Learning<br/>•	Intelligent Data Analysis<br/>•	Information Systems (Business Informatics)<br/>•	Internet of Things (IoT)</p>}
                   studentPhoto={Alaa}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
                 <StudentCard 
+                  role={<h3>AI Expert</h3>}
                   title={<h3>Mahir Arzoky</h3>} 
                   description={<p>Dr Mahir Arzoky is a researcher, whose interest corresponds with artificial intelligence, intelligent data analysis, heuristic search, search-based software engineering, and data clustering & database refactoring. On top of this, he is also a core member of FIAR-NET, where he frequently promotes the collaborations between industry and academic research in software engineering through a series of national and internal workshops.</p> } 
                   skills={<p>•	Artificial Intelligence<br/>•	Intelligent Data Analysis<br/>•	Heuristic Search<br/>•	Search-Based Software Engineering<br/>•	Data Clustering & Database Refactoring</p>}
                   studentPhoto={NoPic}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               </>
 
 const row4 =  <>
                 <StudentCard 
-                  title={<h3>Guiseppe Destefanis</h3>} 
+                  role={<h3>Software Engineering Expert</h3>}
+                  name={<h3>Guiseppe Destefanis</h3>} 
                   description={<p>Dr Giuseppe Destefanis is a researcher, whose focal areas revolve around mining software repositories, empirical software engineering, agile methodologies, software metrics & patterns, and blockchain & cryptocurrencies. Furthermore, He has 15+ years’ experience, working as a consultant and research affiliate several different companies, such as UCL Centre for Blockchain Technologies (CBT).</p> } 
                   skills={<p>•	Mining Software Repositories<br/>•	Empirical Software Engineering<br/>•	Agile Methodologies<br/>•	Software Metrics & Patterns<br/>•	Blockchain & Cryptocurrencies</p>}
                   studentPhoto={Giuseppe}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
                 <StudentCard 
-                  title={<h3>Rumyana Neykova</h3>} 
+                  role={<h3>Software Engineering Expert</h3>}
+                  name={<h3>Rumyana Neykova</h3>} 
                   description={<p>Over the course of her career, Dr Rumyana Neykova has become an accomplished researcher. Her body of work builds on the foundations of cryptocurrency theory and type systems. Furthermore, she has accumulated years of industrial experience working as a software developer in companies and corporations such as Microsoft.</p> } 
                   skills={<p>•	Type Systems<br/>•	Distributed Systems<br/>•	Concurrency<br/>•	Verification<br/>•	Software Development</p>}
                   studentPhoto={Rumy}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               </>
 
 const row5 = <>
               <StudentCard 
-                  title={<h3>Alan Seranno-Rico</h3>} 
+                  role={<h3>Data Analysis and Research Expert</h3>}
+                  name={<h3>Alan Seranno-Rico</h3>} 
                   description={<p>Dr Alan Serrano-Rico is an experienced researcher, whose research lies in the domain of information systems and organisational strategy. More specifically he has an interest in incorporating his research and applying them into real-life challenges organisations may face when adopting ICT in complex environments. Some examples of the collaborations with industry includes that of the BMW Group in UK.</p> } 
                   skills={<p>•	Information Systems<br/>•	Business Organisational Strategy<br/>•	Data Communication Systems<br/>•	Social Network Analysis (SNA)<br/>•	Business Process & Simulation</p>}
                   studentPhoto={Alan}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               <StudentCard 
-                  title={<h3>David Bell</h3>} 
+                  role={<h3>Research and Development Expert</h3>}
+                  tname={<h3>David Bell</h3>} 
                   description={<p>Dr David Bell is a multi-displinary researcher, who has applied novel digital service solutions in a range of varying domains (including a range of health settings). Furthermore, he has worked for several small to large software development companies. Including that of an investing banking firm, to which he became the technology director.</p> } 
                   skills={<p>•	Service Design<br/>•	Emotion AI<br/>•	Cyber Security<br/>•	Semantic Technologies<br/>•	Medical Technologies (MedTech)</p>}
                   studentPhoto={David}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
              </>
 
 const row6 = <>
               <StudentCard 
-                  title={<h3>Kate Hone</h3>} 
+                  role={<h3>User Experience Expert</h3>}
+                  name={<h3>Kate Hone</h3>} 
                   description={<p>Dr Kate Hone is a highly experienced academic leader with a research background in the field of digital user experience (UX). Her research has focused on the human factor implications of using speech and emotion within system design. In addition to this, she has, also, incorporated this research into several projects that she has partaken in such as the Millennium Homes project as well as many others. Furthermore, she is the head of the Computer Science department at Brunel University.</p> } 
                   skills={<p>•	Spoken Dialogue Systems<br/>•	Affective Computing<br/>•	Health Informatics<br/>•	Intelligent Data Analysis<br/>•	Applied Ergonomics</p>}
                   studentPhoto={Kate}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
               <StudentCard 
-                  title={<h3>Timothy Cribbin</h3>} 
+                  role={<h3>UI Expert</h3>}
+                  name={<h3>Timothy Cribbin</h3>} 
                   description={<p>Dr Timothy Cribbin is a researcher, whose primary expertise and interests lies in the realm of visual text analytics. Over the course of his career, he has worked on several funded projects. To which, he has consolidated using his research. Some include the likes of researching new methods and applications of visual text analytics in multiple diverse areas.</p> } 
                   skills={<p>•	Information Visualisation & Retrieval<br/>•	Text Mining<br/>•	Interaction Design/ HCI<br/>•	Digital Libraries<br/>•	Social Media Analytics (SNA)</p>}
                   studentPhoto={Tim}
+                  profile={"PASTE URL HERE"}
+                  lin={"PASTE LINKEDIN URL HERE"}
                 />
              </>
 
@@ -125,7 +158,7 @@ const Experts = () => {
             <div className="experts__cards">
               {row5}
             </div>
-            <h2 style={{color: "white", fontSize: 30}}>UI & UI Experts</h2>
+            <h2 style={{color: "white", fontSize: 30}}>UX & UI Experts</h2>
             <div className="experts__cards">
               {row6}
             </div>

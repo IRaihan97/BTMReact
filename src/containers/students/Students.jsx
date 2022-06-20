@@ -12,12 +12,16 @@ const row1 =  <>
                   description={<p>I am an enthusiastic individual who is fascinated by technology and its constant advancements. I am currently going through my final year on Computer Science Software Engeering course.</p> } 
                   skills={<p>API Development<br/>Web Development<br/>Software Engineering<br/>Java<br/>C#</p>}
                   studentPhoto={IslamRaihan}
+                  profile={"https://github.com/IRaihan97"}
+                  lin={"https://www.linkedin.com/in/islam-raihan-714784195"}
                 />
                 <StudentCard 
                   title={<h3>Elaina Tesfai</h3>} 
                   description={<p>I am a dependable, quick-thinking and responsible individual that thoroughly enjoys challenging myself and pushing the boundaries of what I can achieve. Currently, I am, also, a first year undergraduate Computer Science student.</p> } 
                   skills={<p>Highly profecient writing ability<br/>Excellent communicational skiills<br/>Incentive collaborator<br/>Self-starter<br/>Python<br/>Java</p>}
                   studentPhoto={ElainaTesfai}
+                  profile={"INSERT GITHUB LINK HERE"}
+                  lin={"INSERT LINKEDIN LINK HERE"}
                 />
                 
                 
@@ -30,14 +34,6 @@ const row2 =  <>
                   skills={<p>API Development<br/>Web Development<br/>Software Engineering<br/>Java<br/>C#</p>}
                   studentPhoto={IslamRaihan}
                 />
-                <StudentCard 
-                  title={<h3>Islam Raihan</h3>} 
-                  description={<p>I am an enthusiastic individual who is fascinated by technology and its constant advancements. I am currently going through my final year on Computer Science Software Engeering course.</p> } 
-                  skills={<p>API Development<br/>Web Development<br/>Software Engineering<br/>Java<br/>C#</p>}
-                  studentPhoto={IslamRaihan}
-                />
-                
-                
               </>
 
 const Students = () => {

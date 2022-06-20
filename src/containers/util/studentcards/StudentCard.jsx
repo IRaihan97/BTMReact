@@ -7,19 +7,6 @@ import Typography from '@mui/material/Typography'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import 'animate.css/animate.min.css'
 
-export const talentButton = ({member, profile}) => {
-  if(member){
-    return(
-      <a href={profile}><button className='student__profile'> Academic Profile </button></a>
-    )
-  }
-  else{
-    return(
-      <a href={profile}><button className='student__profile'> GIT </button></a>
-    )
-  }
-}
-
 
 const StudentCard = ({role, name, description, skills, studentPhoto, profile, lin, expert}) => {
   return (
@@ -52,7 +39,7 @@ const StudentCard = ({role, name, description, skills, studentPhoto, profile, li
         </CardContent>
         <CardActions className='student__actions' sx={{ml: 1/2,
         justifyContent: "flex-end"}}>
-          {expert
+          {role
             ?<a href={profile} target="_blank" rel="noreferrer noopener"><button className='student__profile'> Academic Profile </button></a>
             :<a href={profile} target="_blank" rel="noreferrer noopener"> <button className="student__button_git"></button></a>}
           <a href={lin} target="_blank" rel="noreferrer noopener"><button className="student__button_lin"></button></a>
