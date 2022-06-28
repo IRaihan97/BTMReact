@@ -16,7 +16,7 @@ import NoPic from '../../assets/experts/No_Picture.png'
 
 const row1 =  <>
                 <StudentCard 
-                  role={<h2>Executive</h2>}
+                  role={<h2>Director</h2>}
                   name={<h3>Alan Serrano Rico</h3>} 
                   description={<p>Dr Alan Serrano-Rico is an experienced researcher, whose research lies in the domain of information systems and organisational strategy. More specifically he has an interest in incorporating his research and applying them into real-life challenges organisations may face when adopting ICT in complex environments. Some examples of the collaborations with industry includes that of the BMW Group in UK.</p> } 
                   skills={<p>•	Information Systems<br/>•	Business Organisational Strategy<br/>•	Data Communication Systems<br/>•	Social Network Analysis (SNA)<br/>•	Business Process & Simulation</p>}

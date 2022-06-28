@@ -7,14 +7,15 @@ import { useState } from "react";
 const NavbarItems = ({items}) => {
   const [dropdown, setDropdown] = useState(false);
   return (
-      <li className="navbar__items">
+      <li className="navbar__items"
+        onMouseEnter={()=> setDropdown(true)}
+        onMouseLeave={()=> setDropdown(false)}>
         {items.submenu ? (
           <>
             <button 
               type='button' 
               aria-haspopup="menu"
               aria-expanded={dropdown ? "true" : "false"}
-              onClick={() => setDropdown((prev) => !prev)}
             >
               {items.title}{" "}
             </button>

@@ -59,11 +59,25 @@ const Services = () => {
         <div className="BTM__services_BG"/>        
           <div className="services__overlay">
             {/* DO a container for each expert per service area */}
-            <ContentHolder bgImg={dataandai} title={<h1>Data and AI</h1>} content={DataAI} topP={paddingTop} bottomP={paddingBot}/>
-            <ContentHolder bgImg={softwaredev} title={<h1>Software Development</h1>} content={softwareDev} topP={paddingTop} bottomP={paddingBot}/>
-            <ContentHolder bgImg={uxui} title={<h1>UX & UI Design</h1>} content={UXDesign} topP={paddingTop} bottomP={paddingBot}/>
-            <ContentHolder bgImg={poc} title={<h1>Proof Of Concept</h1>} content={proofOfCon} topP={paddingTop} bottomP={paddingBot}/>
-            <ContentHolder bgImg={randd} title={<h1>Applied R&D</h1>} content={appliedRD} topP={paddingTop} bottomP={paddingBot}/>
+            <Element id='data-section' name='data-section'>
+              <ContentHolder bgImg={dataandai} title={<h1>Data and AI</h1>} content={DataAI} topP={paddingTop} bottomP={paddingBot}/>
+            </Element>
+            
+            <Element id='software-section' name='software-section'>
+              <ContentHolder bgImg={softwaredev} title={<h1>Software Development</h1>} content={softwareDev} topP={paddingTop} bottomP={paddingBot}/>
+            </Element>
+            
+            <Element id='ux-section' name='ux-section'>
+              <ContentHolder bgImg={uxui} title={<h1>UX & UI Design</h1>} content={UXDesign} topP={paddingTop} bottomP={paddingBot}/>
+            </Element>
+            
+            <Element id='poc-section' name='poc-section'>
+              <ContentHolder bgImg={poc} title={<h1>Proof Of Concept</h1>} content={proofOfCon} topP={paddingTop} bottomP={paddingBot}/>
+            </Element>
+            
+            <Element id='randd-section' name='randd-section'>
+              <ContentHolder bgImg={randd} title={<h1>Applied R&D</h1>} content={appliedRD} topP={paddingTop} bottomP={paddingBot}/>
+            </Element>
           </div>
       </div>
     </Element>

@@ -45,7 +45,7 @@ const Main = () => {
                 <ContactUs />
             </AnimationOnScroll>
             {/* <BTMProjects /> */}
-            <Footer />
+            {/* <Footer /> */}
         </div>        
     )
 }

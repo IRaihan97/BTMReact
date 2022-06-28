@@ -10,6 +10,10 @@
     background-color: #1C264D;
 }
 
+.BTM__navbar img{
+    cursor: pointer;
+}
+
 .BTM__navbar-link{
     flex:1;
     display: flex;

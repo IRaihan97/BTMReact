@@ -13,7 +13,7 @@ const ContactUs = () => {
               <div className='contact__msg'>
                 <h1> Contact Us</h1>
                 <p> We offer a multitude of services within our domain. <br/>
-                    If you would like to know more and get a quotation, please send us an email at: <br/><a style={{color: "#81AFDD"}} href="mailto:alan.edwin.serrano-rico@brunel.ac.uk?subject=BTM Query"> alan.edwin.serrano-rico@brunel.ac.uk</a></p>
+                    If you would like to know more and get a quotation, please send us an email at: <br/><a style={{color: "#81AFDD"}} href="mailto:alan.edwin.serrano-rico@brunel.ac.uk?subject=BTM Query"> alan.edwin.serrano-rico@brunel.ac.uk</a><br/>Or give us a call on: +44 1895 266048</p>
               </div>
               <div className='contact__form'>
                 <h1 style={{margin: "10px", fontSize: "40px"}}> Our Campus Location</h1>
