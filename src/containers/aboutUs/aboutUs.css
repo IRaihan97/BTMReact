@@ -52,4 +52,30 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.BTM__whychooseus{
+    width: 100%;
+    position: relative;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.BTM_whychoseus_content{
+    width: 1450px;
+    display: flex;
+    flex-direction: column;
+    margin: 9rem;
+}
+
+.BTM__whychooseus h1{
+    color: coral;
+    font-size: 60px;
+}
+
+.BTM__whychooseus p{
+    color: white;
+    font-size: 30px;
+}

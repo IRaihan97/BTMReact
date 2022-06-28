@@ -57,6 +57,30 @@ const AboutUs = () => {
                 <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
               </div>
             </Element>
+            <Element id='our-initiative' name='our-initiative'>
+              <div className='BTM__whychooseus_content'>
+                <h1>Our Initiative</h1>
+                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+              </div>
+            </Element>
+            <Element id='our-initiative' name='our-initiative'>
+              <div className='BTM__whychooseus_content'>
+                <h1>Our Initiative</h1>
+                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+              </div>
+            </Element>
+            <Element id='our-initiative' name='our-initiative'>
+              <div className='BTM__whychooseus_content'>
+                <h1>Our Initiative</h1>
+                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+              </div>
+            </Element>
+            <Element id='our-initiative' name='our-initiative'>
+              <div className='BTM__whychooseus_content'>
+                <h1>Our Initiative</h1>
+                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+              </div>
+            </Element>
           </div>
         </AnimationOnScroll>
 
