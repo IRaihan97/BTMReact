@@ -38,7 +38,7 @@ const AboutUs = () => {
               <Element id='mission-section' name='mission-section'>
                 <div className='BTM__statement_content'>
                   <h1>Our Mission</h1>
-                  <p>To bridge the gap between industry and academia through innovative IT & Data Science services. Unlike most of our competition, we are not a profit-driven organisation. Rather, we are a marketplace, that aims to foster symbiotic relations between our customers and the university. We are distinguishable by our bank of both talented students as well as staff-leading specialists.</p>
+                  <p>To foster symbiotic relationships between industry and academia through innovative IT & Data Science services delivered by talented students and supported by our leading experts.</p>
                 </div>
               </Element>
               <Element id='vision-section' name='vision-section'>
@@ -49,6 +49,14 @@ const AboutUs = () => {
               </Element>
             </AnimationOnScroll>
             </div>
+          </div>
+          <div className='BTM__whychooseus'>
+            <Element id='our-initiative' name='our-initiative'>
+              <div className='BTM__whychooseus_content'>
+                <h1>Our Initiative</h1>
+                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+              </div>
+            </Element>
           </div>
         </AnimationOnScroll>
 
