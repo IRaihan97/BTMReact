@@ -51,34 +51,35 @@ const AboutUs = () => {
             </div>
           </div>
           <div className='BTM__whychooseus'>
+            <h1>Why choose Us</h1>
             <Element id='our-initiative' name='our-initiative'>
               <div className='BTM__whychooseus_content'>
-                <h1>Our Initiative</h1>
+                <h2>Our Initiative</h2>
                 <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
               </div>
             </Element>
-            <Element id='our-initiative' name='our-initiative'>
+            <Element id='our-talent' name='our-talent'>
               <div className='BTM__whychooseus_content'>
-                <h1>Our Initiative</h1>
-                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+                <h2>Our Talent</h2>
+                <p>We are distinguished by our talent, which consists of staff-leading specialists as well as our talented students. that are determined to embark on their professional journeys.</p>
               </div>
             </Element>
-            <Element id='our-initiative' name='our-initiative'>
+            <Element id='our-company-culture' name='our-company-culture'>
               <div className='BTM__whychooseus_content'>
-                <h1>Our Initiative</h1>
-                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+                <h2>Our Company Culture</h2>
+                <p>Our talent pool is differentiated into our talented students working alongside our staff-leading specialists in conjunction.</p>
               </div>
             </Element>
-            <Element id='our-initiative' name='our-initiative'>
+            <Element id='our-perserverence' name='our-perseverence'>
               <div className='BTM__whychooseus_content'>
-                <h1>Our Initiative</h1>
-                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+                <h2>Our Perseverence</h2>
+                <p>Adopting the agile strategy, our student talent is resilient and will continue to preserve relentlessly until our tech solution accurately meets the customers' standards.</p>
               </div>
             </Element>
-            <Element id='our-initiative' name='our-initiative'>
+            <Element id='our-competiveness' name='our-competiveness'>
               <div className='BTM__whychooseus_content'>
-                <h1>Our Initiative</h1>
-                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+                <h2>Our Competiveness</h2>
+                <p>Due to our pioneering company culture,  we are able to garner diverse ideas conceived by our student talent but strengthened and founded on the knowledge and skills of our staff-leading specialists.</p>
               </div>
             </Element>
           </div>
