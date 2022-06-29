@@ -7,11 +7,10 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useEffect } from "react";
 
 
-const App = () => {
-
-  
-
-  return (
+class App extends React.Component {
+ 
+  render(){
+    return(
       <div className="App">
         <Router>
           <div className="gradient__bg">
@@ -22,7 +21,8 @@ const App = () => {
           </Routes>
         </Router> 
       </div>
-  )
+    )
+  }
 }
 
 export default App
