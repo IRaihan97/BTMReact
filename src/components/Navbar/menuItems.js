@@ -56,6 +56,10 @@ export const menuItems = [
                 title: "Testimonials",
                 scrollTo: "testimonial-section"
             },
+            {
+                title: "Why Choose Us",
+                scrollTo: "why-section"
+            }
         ]
     },
     {

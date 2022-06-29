@@ -55,19 +55,20 @@
 .BTM__whychooseus{
     width: 100%;
     position: relative;
-    height: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6rem;
 }
 
-.BTM_whychoseus_content{
-    width: 1450px;
+.BTM__whychooseus_content{
+    width: 70%;
     display: flex;
     flex-direction: column;
-    margin: 9rem;
+    margin: 1rem;
 }
 
 .BTM__whychooseus h2{
