@@ -22,7 +22,7 @@
 }
 
 .contact__msg{
-    width: 1000px;
+    width: 1100px;
     /* margin-right: 3rem; */
     text-align: center;
     margin-top: 5.5rem;
@@ -30,7 +30,7 @@
 
 .contact__msg p{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .contact__form{

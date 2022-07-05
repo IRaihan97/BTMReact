@@ -3,7 +3,24 @@ export const menuItems = [
         title: "Home",
         scrollTo: "header-section"
     },
-    ,
+    {
+        title: "About Us",
+        scrollTo: "about-section",
+        submenu: [
+            {
+                title: "Our Mission and Vision",
+                scrollTo: "about-section"
+            },
+            {
+                title: "Testimonials",
+                scrollTo: "testimonial-section"
+            },
+            {
+                title: "Why Choose Us",
+                scrollTo: "why-section"
+            }
+        ]
+    },
     {
         title: "Services",
         scrollTo: "services-section",
@@ -44,24 +61,7 @@ export const menuItems = [
             }
         ]
     },
-    {
-        title: "About Us",
-        scrollTo: "about-section",
-        submenu: [
-            {
-                title: "Our Mission and Vision",
-                scrollTo: "about-section"
-            },
-            {
-                title: "Testimonials",
-                scrollTo: "testimonial-section"
-            },
-            {
-                title: "Why Choose Us",
-                scrollTo: "why-section"
-            }
-        ]
-    },
+    ,
     {
         title: "Contact Us",
         scrollTo: "contact-section"

@@ -33,7 +33,7 @@
 
 .BTM__statements p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .BTM__statement_content{
@@ -41,6 +41,10 @@
     display: flex;
     flex-direction: column;
     margin: 9rem;
+}
+
+.BTM__statement_content h1{
+    font-size: 40px;
 }
 
 .BTM__statements_overlay{
@@ -71,12 +75,16 @@
     margin: 1rem;
 }
 
+.BTM__whychooseus h1{
+    font-size: 40px;
+}
+
 .BTM__whychooseus h2{
     color: coral;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .BTM__whychooseus p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }

@@ -13,7 +13,12 @@ const Main = () => {
                 animateOnce='true'>
                 <Home/>
             </AnimationOnScroll>
-            
+
+            <AnimationOnScroll 
+                animateIn='animate__fadeIn'
+                animateOnce='true'>
+                <AboutUs />
+            </AnimationOnScroll>            
             
             <AnimationOnScroll 
                 animateIn='animate__fadeIn'
@@ -31,12 +36,6 @@ const Main = () => {
                 animateIn='animate__fadeIn'
                 animateOnce='true'>
                 <Students />
-            </AnimationOnScroll>
-            
-            <AnimationOnScroll 
-                animateIn='animate__fadeIn'
-                animateOnce='true'>
-                <AboutUs />
             </AnimationOnScroll>
 
             <AnimationOnScroll 

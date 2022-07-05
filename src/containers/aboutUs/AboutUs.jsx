@@ -55,23 +55,23 @@ const AboutUs = () => {
               <h1>Why choose Us</h1>
               <div className='BTM__whychooseus_content'>
                 <h2>Our Initiative</h2>
-                <p>We are not a profit-driven organisation, rather we are a marketplace. That aims to foster symbiotic relations between our customers and the university</p>
+                <p>We are not a profit-driven organisation. Instead, we aim to foster better relations between our customers, lead scientists, and talented students</p>
               </div>
               <div className='BTM__whychooseus_content'>
                 <h2>Our Talent</h2>
-                <p>We are distinguished by our talent, which consists of staff-leading specialists as well as our talented students. that are determined to embark on their professional journeys.</p>
+                <p>Our talented students are hand-picked based on their grades and, more importantly, on their soft skills demonstrated throughout the year in labs, classes, teamwork, and other face-to-face interactions.</p>
               </div>
               <div className='BTM__whychooseus_content'>
                 <h2>Our Company Culture</h2>
-                <p>Our talent pool is differentiated into our talented students working alongside our staff-leading specialists in conjunction.</p>
+                <p>Our staff base is our talented students who work side to side with our world-leading specialists to deliver on time and with utmost quality.</p>
               </div>
               <div className='BTM__whychooseus_content'>
-                <h2>Our Perseverence</h2>
-                <p>Adopting the agile strategy, our student talent is resilient and will continue to preserve relentlessly until our tech solution accurately meets the customers' standards.</p>
+                <h2>Our Scope</h2>
+                <p>Our services do not stop in basic consultancy, we are used to tackling innovative and challenging projects in R&D. </p>
               </div>
               <div className='BTM__whychooseus_content'>
                 <h2>Our Competiveness</h2>
-                <p>Due to our pioneering company culture,  we are able to garner diverse ideas conceived by our student talent but strengthened and founded on the knowledge and skills of our staff-leading specialists.</p>
+                <p>Because of our initiative, we can beat our competition with viable prices, and offer a quality of work with a scientific edge.</p>
               </div>
             </div>
           </Element>
