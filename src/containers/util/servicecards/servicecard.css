@@ -1,7 +1,11 @@
 .BTM__ServiceCard{
-    width: 30rem;
+    width: 24rem;
     align-items: center;
-    margin:2rem;
     display: flex;
+    background-color: #1E2B57;
+}
+
+.BTM__ServiceCard p{
+    font-size: 15px;
 }
 

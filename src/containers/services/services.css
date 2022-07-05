@@ -4,12 +4,15 @@
     position: relative;
 }
 
-.services__overlay{
+.services{
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    position: relative;
+    align-items: center;
+}
+
+.services__overlay{
+    width: 100%;
     
 }
+

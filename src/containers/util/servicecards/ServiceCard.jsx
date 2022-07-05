@@ -11,12 +11,12 @@ const ServiceCard = ({title, content}) => {
     <AnimationOnScroll 
       animateIn='animate__flipInX'
       animateOnce='true'>
-    <Card className= "BTM__ServiceCard" sx={{borderRadius: 6, boxShadow: 6}}>
+    <Card className= "BTM__ServiceCard" sx={{borderRadius: 6, boxShadow: 6, backgroundColor: "#1E2B57", margin: "10px"}}>
       <CardContent>
-        <Typography variant="h4" component="div" style={{textAlign:"center"}}>
+        <Typography variant="h5" component="div" style={{textAlign:"center", color: "#82CAFF"}}>
           {title}
         </Typography>
-        <Typography sx={{ m: 1 }} color="#011C46" style={{textAlign:"center", textJustify: "inter-word", verticalAlign:"center"}}>
+        <Typography sx={{ m: 1 }} color="white" style={{textAlign:"center", textJustify: "inter-word", verticalAlign:"center"}}>
           {content}
         </Typography>
       </CardContent>

@@ -21,7 +21,7 @@ export const menuItems = [
                 scrollTo: "ux-section"
             },
             {
-                title: "Proof Of Concepts",
+                title: "Proof Of Concept",
                 scrollTo: "poc-section"
             },
             {

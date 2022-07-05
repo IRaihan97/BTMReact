@@ -24,6 +24,13 @@ const slide2 =  <ReactPlayer
                 controls="true"
                 />
 
+const slide3 =  <ReactPlayer
+                url="https://youtu.be/kvqfa1wolj0"
+                height={"90%"}
+                width={"80%"}
+                controls="true"
+                />
+
 
 const Slideshow = () => {
     return (
@@ -40,6 +47,12 @@ const Slideshow = () => {
                     <img src={Phillip} width="100%" height="100%"/>
                 </a> */}
                 {slide2}
+            </div>
+            <div className='testimonial__slides'>
+                {/* <a href='https://youtu.be/kvqfa1wolj0'>
+                    <img src={Phillip} width="100%" height="100%"/>
+                </a> */}
+                {slide3}
             </div>
         </AwesomeSlider>
     </div>

@@ -13,7 +13,7 @@ const Header = ({bgImg, title}) => {
       <div className="BTM__topHead_BG" style={{ backgroundImage: `url(${bgImg})`}}>
         <div className="topHead__overlay">
           <div className="topHead__content">
-            <h1>{title}</h1>
+            <div><h1>{title}</h1></div>
           </div>
         </div>
       </div>

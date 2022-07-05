@@ -1,10 +1,10 @@
 import React from 'react';
-import { Brand, CTA, Navbar, NewNav} from './components';
+import { Navbar} from './components';
 import './App.css';
 import './index.css';
-import { Experts, Main, OurServices, Talents, WhatIs } from './components/Pages';
+import { Main } from './components/Pages';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import { useEffect } from "react";
+
 
 
 class App extends React.Component {

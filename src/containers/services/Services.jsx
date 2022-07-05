@@ -54,32 +54,32 @@ const Services = () => {
           animateIn='animate__fadeInDown'
           animateOnce='true'
         >
-        <Header bgImg={serviceImg} title={<h1 style={{color:"white"}}>Services</h1>}/>
+          <Header bgImg={serviceImg} title={<h1 style={{color:"white"}}>Services</h1>}/>
         </AnimationOnScroll>
-
-        <div className="BTM__services_BG"/>        
+        <div className='services'>
           <div className="services__overlay">
             {/* DO a container for each expert per service area */}
             <Element id='data-section' name='data-section'>
-              <ContentHolder bgImg={dataandai} title={<h1>Data and AI</h1>} content={DataAI} topP={paddingTop} bottomP={paddingBot}/>
+              <ContentHolder bgImg={dataandai} title={<h1 style={{color: "white"}}>Data and AI</h1>} content={DataAI} topP={paddingTop} bottomP={paddingBot}/>
             </Element>
             
             <Element id='software-section' name='software-section'>
-              <ContentHolder bgImg={softwaredev} title={<h1>Software Development</h1>} content={softwareDev} topP={paddingTop} bottomP={paddingBot}/>
+              <ContentHolder bgImg={softwaredev} title={<h1 style={{color: "white"}}>Software Development</h1>} content={softwareDev} topP={paddingTop} bottomP={paddingBot}/>
             </Element>
             
             <Element id='ux-section' name='ux-section'>
-              <ContentHolder bgImg={uxui} title={<h1>UX & UI Design</h1>} content={UXDesign} topP={paddingTop} bottomP={paddingBot}/>
+              <ContentHolder bgImg={uxui} title={<h1 style={{color: "white"}}>UX & UI Design</h1>} content={UXDesign} topP={paddingTop} bottomP={paddingBot}/>
             </Element>
             
             <Element id='poc-section' name='poc-section'>
-              <ContentHolder bgImg={poc} title={<h1>Proof Of Concept</h1>} content={proofOfCon} topP={paddingTop} bottomP={paddingBot}/>
+              <ContentHolder bgImg={poc} title={<h1 style={{color: "white"}}>Proof Of Concept</h1>} content={proofOfCon} topP={paddingTop} bottomP={paddingBot}/>
             </Element>
             
             <Element id='randd-section' name='randd-section'>
-              <ContentHolder bgImg={randd} title={<h1>Applied R&D</h1>} content={appliedRD} topP={paddingTop} bottomP={paddingBot}/>
+              <ContentHolder bgImg={randd} title={<h1 style={{color: "white"}}>Applied R&D</h1>} content={appliedRD} topP={paddingTop} bottomP={paddingBot}/>
             </Element>
           </div>
+        </div>
       </div>
     </Element>
   </React.Fragment>
