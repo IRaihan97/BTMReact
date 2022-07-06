@@ -7,25 +7,22 @@ import Phillip from '../../../assets/experts/phillipbanner.png'
 import ReactPlayer from 'react-player';
 import YouTubePlayer from 'react-player/lib/players/YouTube';
 
-const updatePlay = (player) =>{
-    player.setState({playing: false})
-}
-
-const slide1 = <ReactPlayer
-                url="https://youtu.be/B8Qi0zCwnTg"
+const slide1 =  <ReactPlayer
+                url="https://youtu.be/5v-wlB6rA9c"
                 height={"90%"}
                 width={"80%"}
                 controls="true"
                 />
+
 const slide2 =  <ReactPlayer
                 url="https://youtu.be/kvqfa1wolj0"
                 height={"90%"}
                 width={"80%"}
                 controls="true"
                 />
-
-const slide3 =  <ReactPlayer
-                url="https://youtu.be/kvqfa1wolj0"
+                
+const slide3 = <ReactPlayer
+                url="https://youtu.be/B8Qi0zCwnTg"
                 height={"90%"}
                 width={"80%"}
                 controls="true"

@@ -12,13 +12,14 @@ export const menuItems = [
                 scrollTo: "about-section"
             },
             {
-                title: "Testimonials",
-                scrollTo: "testimonial-section"
-            },
-            {
                 title: "Why Choose Us",
                 scrollTo: "why-section"
+            },
+            {
+                title: "Testimonials",
+                scrollTo: "testimonial-section"
             }
+            
         ]
     },
     {

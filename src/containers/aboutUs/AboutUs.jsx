@@ -54,24 +54,44 @@ const AboutUs = () => {
             <div className='BTM__whychooseus'>
               <h1>Why choose Us</h1>
               <div className='BTM__whychooseus_content'>
-                <h2>Our Initiative</h2>
-                <p>We are not a profit-driven organisation. Instead, we aim to foster better relations between our customers, lead scientists, and talented students</p>
+                <AnimationOnScroll animateIn='animate__fadeInDown'animateOnce='true'>
+                  <h2>Our Initiative</h2>
+                </AnimationOnScroll>
+                <AnimationOnScroll animateIn='animate__fadeIn' delay={500} animateOnce='true'>
+                  <p>We are not a profit-driven organisation. Instead, we aim to foster better relations between our customers, lead scientists, and talented students</p>
+                </AnimationOnScroll>
               </div>
               <div className='BTM__whychooseus_content'>
+              <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'>
                 <h2>Our Talent</h2>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true' delay={500}>
                 <p>Our talented students are hand-picked based on their grades and, more importantly, on their soft skills demonstrated throughout the year in labs, classes, teamwork, and other face-to-face interactions.</p>
+              </AnimationOnScroll>
               </div>
               <div className='BTM__whychooseus_content'>
+              <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'>
                 <h2>Our Company Culture</h2>
+              </AnimationOnScroll> 
+              <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true' delay={500}>
                 <p>Our staff base is our talented students who work side to side with our world-leading specialists to deliver on time and with utmost quality.</p>
+              </AnimationOnScroll>
               </div>
               <div className='BTM__whychooseus_content'>
+              <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'>
                 <h2>Our Scope</h2>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn='animate__fadeIn' delay={500} animateOnce='true'>
                 <p>Our services do not stop in basic consultancy, we are used to tackling innovative and challenging projects in R&D. </p>
+              </AnimationOnScroll>
               </div>
               <div className='BTM__whychooseus_content'>
+              <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'>
                 <h2>Our Competiveness</h2>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn='animate__fadeIn' delay={500} animateOnce='true'>
                 <p>Because of our initiative, we can beat our competition with viable prices, and offer a quality of work with a scientific edge.</p>
+              </AnimationOnScroll>
               </div>
             </div>
           </Element>

@@ -18,32 +18,38 @@ const StudentCard = ({role, name, description, skills, studentPhoto, profile, li
           <img className="Student_Photo" src={studentPhoto}/>
         </div>
         <Typography className="student__name" variant="h5" component="div" style={{textAlign:"center", color: "white", marginTop: "0.5rem"}}>
-            {role}
-          </Typography>
-        <CardContent className='Student__content'>
-          <Typography className="student__name" variant="h5" component="div" style={{textAlign:"left", color: "#82CAFF"}}>
-            {name}
-          </Typography>
-          <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
-            Who Am I
-          </Typography>
-          <Typography color="#011C46" style={{textAlign:"left", color: "white"}}>
-            {description}
-          </Typography>
-          <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
-            Skillset
-          </Typography>
-          <Typography color="#011C46" style={{textAlign:"left", color: "white"}}>
-            {skills}
-          </Typography>
-        </CardContent>
-        <CardActions className='student__actions' sx={{ml: 1/2,
-        justifyContent: "flex-end"}}>
-          {role
-            ?<a href={profile} target="_blank" rel="noreferrer noopener"><button className='student__profile'> Academic Profile </button></a>
-            :<a href={profile} target="_blank" rel="noreferrer noopener"> <button className="student__button_git"></button></a>}
-          <a href={lin} target="_blank" rel="noreferrer noopener"><button className="student__button_lin"></button></a>
-        </CardActions>
+          <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'> {role} </AnimationOnScroll>
+        </Typography>
+        <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true'> 
+          <CardContent className='Student__content'>
+            <Typography className="student__name" variant="h5" component="div" style={{textAlign:"left", color: "#82CAFF"}}>
+              <AnimationOnScroll animateIn='animate__fadeInDown' animateOnce='true'> {name} </AnimationOnScroll>
+            </Typography>
+            <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true' delay={500}>
+            <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
+              Who Am I
+            </Typography>
+            <Typography color="#011C46" style={{textAlign:"left", color: "white"}}>
+              {description}
+            </Typography>
+            <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
+              Skillset
+            </Typography>
+            <Typography color="#011C46" style={{textAlign:"left", color: "white"}}>
+              {skills}
+            </Typography>
+            </AnimationOnScroll>
+          </CardContent>
+        </AnimationOnScroll>
+        <AnimationOnScroll animateIn='animate__fadeInRight' animateOnce='true'>
+          <CardActions className='student__actions' sx={{ml: 1/2,
+          justifyContent: "flex-end"}}>
+            {role
+              ?<a href={profile} target="_blank" rel="noreferrer noopener"><button className='student__profile'> Academic Profile </button></a>
+              :<a href={profile} target="_blank" rel="noreferrer noopener"> <button className="student__button_git"></button></a>}
+            <a href={lin} target="_blank" rel="noreferrer noopener"><button className="student__button_lin"></button></a>
+          </CardActions>
+        </AnimationOnScroll>
       </Card>
     </AnimationOnScroll>
   )

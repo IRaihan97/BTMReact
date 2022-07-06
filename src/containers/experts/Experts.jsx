@@ -60,7 +60,7 @@ const row3 = <>
                 />
                 <StudentCard 
                   role={<h3>AI Expert</h3>}
-                  title={<h3>Mahir Arzoky</h3>} 
+                  name={<h3>Mahir Arzoky</h3>} 
                   description={<p>Dr Mahir Arzoky is a researcher, whose interest corresponds with artificial intelligence, intelligent data analysis, heuristic search, search-based software engineering, and data clustering & database refactoring. On top of this, he is also a core member of FIAR-NET, where he frequently promotes the collaborations between industry and academic research in software engineering through a series of national and internal workshops.</p> } 
                   skills={<p>•	Artificial Intelligence<br/>•	Intelligent Data Analysis<br/>•	Heuristic Search<br/>•	Search-Based Software Engineering<br/>•	Data Clustering & Database Refactoring</p>}
                   studentPhoto={Mahir}
@@ -102,7 +102,7 @@ const row5 = <>
                 />
               <StudentCard 
                   role={<h3>Research and Development Expert</h3>}
-                  tname={<h3>David Bell</h3>} 
+                  name={<h3>David Bell</h3>} 
                   description={<p>Dr David Bell is a multi-displinary researcher, who has applied novel digital service solutions in a range of varying domains (including a range of health settings). Furthermore, he has worked for several small to large software development companies. Including that of an investing banking firm, to which he became the technology director.</p> } 
                   skills={<p>•	Service Design<br/>•	Emotion AI<br/>•	Cyber Security<br/>•	Semantic Technologies<br/>•	Medical Technologies (MedTech)</p>}
                   studentPhoto={David}
