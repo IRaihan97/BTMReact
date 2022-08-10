@@ -5,7 +5,6 @@
     text-align: center;
     position: relative;
     padding-top: 5rem;
-
 }
 
 .students__content{
@@ -23,4 +22,29 @@
     justify-content: center;
     align-items: center;
 }
+
+.BTM__students__contactus{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-bg);
+    padding: 6rem;
+}
+
+BTM__students__contactus p{
+    color: white;
+    font-size: 20px;
+}
+
+.BTM__students_contactus_content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
 

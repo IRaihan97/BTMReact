@@ -62,9 +62,19 @@ export const menuItems = [
             }
         ]
     },
-    ,
+    
     {
         title: "Contact Us",
-        scrollTo: "contact-section"
+        scrollTo: "contact-section",
+        submenu: [
+            {
+                title: "Business",
+                scrollTo: "contact-section",
+            },
+            {
+                title: "Students",
+                scrollTo: "students-contact-section",
+            }
+        ]
     }
 ]

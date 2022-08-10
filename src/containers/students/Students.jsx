@@ -48,6 +48,13 @@ const Students = () => {
           </div>
         </div>
       </Element>
+
+      <Element id='students-contact-section' name='students-contact-section'>
+        <div className="BTM__students__contactus" id="BTM__students__contactus">
+          <h2 style={{color: "coral", fontSize: 30}}>How to apply</h2>
+            <p style={{color: "white", fontSize: 20}}>You can apply to part of our talented student pool by simply sending us an email with your Brunel account. Before applying, you need to be sure you have read the Jobshop page regarding limits on how many hours you can work and how to maintain a healthy work-study balance (https://intra.brunel.ac.uk/s/PDC/job-shop/Pages/Working-hours.aspx). We pay by the hour and the rate depends on the job at hand. Thus, our pool of students will need to register with the Jobshop. I encourage you to start the registration process before you apply, as it may take some time for your paperwork to go through. For registration to the Jobshop, follow this link: https://intra.brunel.ac.uk/s/PDC/job-shop/Pages/Join-our-ready-to-work-pool-of-student-candidates.aspx</p>
+        </div>
+      </Element>
     </React.Fragment>
   )
 }
