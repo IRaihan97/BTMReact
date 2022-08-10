@@ -27,7 +27,7 @@ const StudentCard = ({role, name, description, skills, studentPhoto, profile, li
             </Typography>
             <AnimationOnScroll animateIn='animate__fadeIn' animateOnce='true' delay={500}>
             <Typography className="student__name" variant="h6" component="div" style={{textAlign:"left", color: "white"}}>
-              Who Am I
+              Who Am I student 
             </Typography>
             <Typography color="#011C46" style={{textAlign:"left", color: "white"}}>
               {description}

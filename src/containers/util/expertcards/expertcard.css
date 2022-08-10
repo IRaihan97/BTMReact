@@ -1,0 +1,85 @@
+.BTM__ExpertCard{
+    width: 40rem;
+    align-items: center;
+    margin: 3rem;
+    box-shadow: 2px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ServiceCard__content{
+    font-size: 30px;
+}
+
+.BTM__Expert_Photo{
+    height: 9rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Expert_Photo{
+    width: 9rem;
+    height: 9rem;
+    position:inherit;
+    object-fit: cover;
+    border-radius: 3rem;
+    border: 0.5px
+}
+
+.Expert__content{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: var(--color-cardcontent-bg);
+}
+
+.expert__buttons{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+}
+
+.expert__button_git{
+    /*background-image: url('../../../assets/experts/github.png');*/
+    background-size: cover;
+    background-color: #031B34;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.expert__profile{
+    background-color: #1E2B57;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border: 0px;
+
+}
+
+.expert__button_lin{
+    background-image: url('../../../assets/students/linkedin.png');
+    background-size: cover;
+    background-color: #031B34;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.expert__actions{
+    display: flex;
+
+
+}

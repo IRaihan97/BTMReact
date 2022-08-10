@@ -28,10 +28,14 @@
     position:static;
 }
 
-.header__content{
+.header__content{ /* font for front*/ 
     font-size: 30px;
     color: #A6C9FF; 
-    width: 300px;
+    width: 500px;
+
+    @media screen and (max-width: 780px) {
+        color: red;
+    }
 }
 
 .home__button{
