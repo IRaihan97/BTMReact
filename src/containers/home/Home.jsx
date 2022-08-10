@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 import { Element } from 'react-scroll'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import "animate.css/animate.min.css";
+import "animate.css/animate.min.css"; // a copmment 
 
 
 
@@ -23,8 +23,7 @@ const Home = () => {
                   animateIn='animate__fadeIn'
                   delay={1000}>
                   <p>Fostering symbiotic 
-                      relationships between
-                      industry and academia 
+                      relationships between industry and academia 
                       through innovative IT & Data
                       Science services delivered by our
                       leading experts and 

@@ -16,7 +16,7 @@
     padding: 1rem;
 }
 
-.BTM__statements{
+.BTM__statements{ /* this is mission and vision css*/
     background-image: url("../../assets/about/eye.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,12 +31,12 @@
     text-align: center;
 }
 
-.BTM__statements p{
+.BTM__statements p{ /* mission and visions font*/
     color: white;
     font-size: 25px;
 }
 
-.BTM__statement_content{
+.BTM__statement_content{ /* content font*/
     width: 1450px;
     display: flex;
     flex-direction: column;
