@@ -20,7 +20,7 @@
 }
 /* this is the filter for the home image */
 .header__overlay{   
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
     width: 100%;
     padding-top: 17%;
@@ -31,7 +31,7 @@
 .header__content{ /* font for front*/ 
     font-size: 30px;
     color: #A6C9FF; 
-    width: 500px;
+    width: 300px;
 
     @media screen and (max-width: 780px) {
         color: red;

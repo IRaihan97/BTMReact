@@ -1,4 +1,4 @@
-import { Home, AboutUs, Services, Experts, Students, ContactUs, BTMProjects, Footer} from '../../containers';
+import { Home, AboutUs, Services, Experts, Students, ContactUs} from '../../containers';
 import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";

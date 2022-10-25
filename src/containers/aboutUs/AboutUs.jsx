@@ -1,18 +1,10 @@
 import React from 'react'
 import './aboutUs.css'
-import {Header, ContentHolder, Slideshow} from '../util/index';
+import {Header, Slideshow} from '../util/index';
 import bgImg from '../../assets/about/aboutUsHeader.png'
-import bridgeImg from '../../assets/about/bridge.png'
-import eyeImg from '../../assets/about/eye.png'
 import { Element } from 'react-scroll'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import 'animate.css/animate.min.css'
-
-
-const paddingTop = 250;
-const paddingBot = 250;
-const title = <div><span style={{color: "white"}}>Brunel</span><span style={{color: "rgb(0, 28, 153)", textDecoration:"bold"}}>Talent</span><span style={{color: "white"}}>MarketPlace</span></div>
-
 
 const AboutUs = () => {
   return (
