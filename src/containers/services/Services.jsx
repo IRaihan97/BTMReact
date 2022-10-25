@@ -20,8 +20,8 @@ const DataAI =  <>
 
 const softwareDev =   <>
                         <ServiceCard title={<h3>Mobile Apps</h3>} content={<p>We develop fully functional mobile applications in Android and IOS using agile methodologies, allowing a collaborative environment with our customers.</p>}/>
-                        <ServiceCard title={<h3>Web Development</h3>} content={<p>Our talented students are well equipped to drive the building and creation of websites, including aspects of web design, web publishing, web programming, and database management.</p>}/>
                         <ServiceCard title={<h3>API</h3>} content={<p>We design and deploy application  programming interfaces that enable applications to integrate with each other. Generating a culture of transparency, leading to data-sharing and information flowing.</p>}/>
+                        <ServiceCard title={<h3>Web Development</h3>} content={<p>Our talented students are well equipped to drive the building and creation of websites, including aspects of web design, web publishing, web programming, and database management.</p>}/>
                       </>
 
 const UXDesign =  <>
